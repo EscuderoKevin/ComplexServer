@@ -1,0 +1,29 @@
+[20-Aug-2016 08:21:12 America/Chicago] PHP Parse error:  syntax error, unexpected '$description' (T_VARIABLE) in /home/worhost/public_html/complexserver/pages/tokens/generate.php on line 36
+[20-Aug-2016 08:21:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/worhost/public_html/complexserver/pages/tokens/generate.php on line 127
+[20-Aug-2016 08:22:29 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/worhost/public_html/complexserver/pages/tokens/generate.php on line 133
+[20-Aug-2016 08:22:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/worhost/public_html/complexserver/pages/tokens/generate.php on line 133
+[20-Aug-2016 08:26:41 America/Chicago] PHP Fatal error:  Uncaught exception 'TeamSpeak3_Adapter_ServerQuery_Exception' with message 'invalid parameter' in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php:582
+Stack trace:
+#0 /home/worhost/public_html/complexserver/pages/tokens/generate.php(122): TeamSpeak3_Node_Abstract->offsetGet('sgid')
+#1 {main}
+  thrown in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php on line 582
+[20-Aug-2016 08:26:45 America/Chicago] PHP Fatal error:  Uncaught exception 'TeamSpeak3_Adapter_ServerQuery_Exception' with message 'invalid parameter' in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php:582
+Stack trace:
+#0 /home/worhost/public_html/complexserver/pages/tokens/generate.php(122): TeamSpeak3_Node_Abstract->offsetGet('sgid')
+#1 {main}
+  thrown in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php on line 582
+[20-Aug-2016 08:27:00 America/Chicago] PHP Fatal error:  Uncaught exception 'TeamSpeak3_Adapter_ServerQuery_Exception' with message 'invalid parameter' in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php:582
+Stack trace:
+#0 /home/worhost/public_html/complexserver/pages/tokens/generate.php(122): TeamSpeak3_Node_Abstract->offsetGet('sgid')
+#1 {main}
+  thrown in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php on line 582
+[20-Aug-2016 08:29:13 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/worhost/public_html/complexserver/pages/tokens/generate.php on line 158
+[20-Aug-2016 08:29:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/worhost/public_html/complexserver/pages/tokens/generate.php on line 158
+[22-Aug-2016 04:14:53 America/Chicago] PHP Fatal error:  Uncaught exception 'TeamSpeak3_Adapter_ServerQuery_Exception' with message 'invalid serverID' in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Adapter/ServerQuery/Reply.php:319
+Stack trace:
+#0 /home/worhost/public_html/complexserver/libs/TeamSpeak3/Adapter/ServerQuery/Reply.php(91): TeamSpeak3_Adapter_ServerQuery_Reply->fetchError(Object(TeamSpeak3_Helper_String))
+#1 /home/worhost/public_html/complexserver/libs/TeamSpeak3/Adapter/ServerQuery.php(141): TeamSpeak3_Adapter_ServerQuery_Reply->__construct(Array, 'clientupdate cl...', Object(TeamSpeak3_Node_Host), true)
+#2 /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php(73): TeamSpeak3_Adapter_ServerQuery->request('clientupdate cl...', true)
+#3 /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Server.php(90): TeamSpeak3_Node_Abstract->request('clientupdate cl...', true)
+#4 /home/worhost/public_html/complexserver/libs/TeamSpeak3/Node/Abstract.php(97): TeamSpeak3_Node_Server->request('clientupdate cl...')
+#5 /home/worhos in /home/worhost/public_html/complexserver/libs/TeamSpeak3/Adapter/ServerQuery/Reply.php on line 319
